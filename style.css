@@ -1,0 +1,48 @@
+.文章1{
+	color: #87cefa;
+}
+
+/* 色名、カラーコードで色を指定できる */
+
+.文章2{
+	font-size: 20pt;
+}
+
+.文章3{
+	font-family: "ヒラギノ明朝 ProN", "HanziPen TC", serif;
+}
+
+.文章4{
+	font-weight: bold;
+}
+
+.文章5{
+	width: 10em;
+	line-height: 2;
+}
+
+/* 「em」一文字分の単位 */
+
+/* 行の高さを変える
+line-height: 1.8; */
+
+
+/* * * ↑ ここより上に各文章の装飾を書く↑ * * */
+
+/* * * ↓ ここより下は分からなくてok ↓ * * */
+
+h2 {
+	/* 見出しの上に余白をつける */
+	padding: 60px 0px 0px 0px;
+}
+
+.説明 {
+	font-size: 14px;
+	color: dimgray;
+	padding: 0px 0px 10px 0px;
+}
+
+/* body内の最後の要素の下に余白をつける */
+body > *:last-child {
+	padding: 0px 0px 500px 0px;
+}
